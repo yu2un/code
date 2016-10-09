@@ -14,7 +14,7 @@
 
 	    public function head()
 	    {
-	        echo $this->a." - head <br>";
+	        echo $this->a." - head /";
 	    }
 
 	    public function footer()
@@ -23,8 +23,6 @@
 	    }
 	}
 	$a = "value" ; // $_POST["name"] $_GET["name"];
-	$obj = new MyTest($a);
-	$obj->head();
-	$obj->footer();
+	$obj = new MyTest($a);$obj->head();$obj->footer(); // Çıktı : value - head / value - footer
 ?>
 ```
