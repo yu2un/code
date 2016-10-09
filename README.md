@@ -1,7 +1,7 @@
 # Ufak Tefek Kodlar
 
 Kodlar burada yer alacak;
-
+'''
 Class A
 {
   public isim;
@@ -19,3 +19,4 @@ Class A
     echo $this->isim; // Çıktı Soyisim
   }
 }
+'''
