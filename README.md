@@ -5,7 +5,7 @@
 <?
 	class MyTest
 	{
-	    protected $a;
+	    protected $a; //public , private , protected
 
 	    public function __construct($a)
 	    {
