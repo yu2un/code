@@ -1,6 +1,6 @@
-## Ufak Tefek Kodlar
+#### Ufak Tefek Kodlar
 
-### Class içi global değişken
+##### Class içi global değişken
 ```
 <?
 	class MyTest
