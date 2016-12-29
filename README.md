@@ -45,5 +45,24 @@ while(1){
                 break;
             }
         }
+```
+### Forma otomatik yazı yazdırma
+
+```
+// Html
+<input type="text" placeholder="Kullanıcı adı" value/>
+// Jquery
+function typeToInput(selector, str){
+var ctr = 0;
+var tmr = setInterval(function(){
+    document.querySelector(selector).value += str[ctr];
+    ctr++;
+    if(ctr >= str.length) clearInterval(tmr);
+}, 250);
+}
+
+
+typeToInput("input[placeholder='Kullanıcı adı']","yardiminlazim")
+```
+```
 	
-	```
